@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.input-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-number-input {
+    max-width: 4em;
+    height: 2em;
+    margin-right: 0.8em;
+    border: 0.03em solid #aeaeae;
+    text-align: center;
+    color: #f0f0f0;
+    text-shadow: #0e0e0e 2px 0 3px;
+    font-size: 0.8em;
+}
+
+.input-label {
+    color: #0f0f0f;
+    text-shadow: #0e0e0e 2px 0 3px;
+    font-weight: 600;
+}
